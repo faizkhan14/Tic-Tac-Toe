@@ -1,9 +1,7 @@
 # Tic-Tac-Toe
 The TicTacToe game is a classic two-player game where players take turns marking spaces on a 3x3 grid. The objective is to get three marks in a row, either horizontally, vertically, or diagonally, before the opponent does.
-# How to Run the Game
-1- Ensure you have Java installed on your system.
-2- Compile the Java file using the following command: javac TicTacToe.java
-3- Run the compiled program using the following command: java TicTacToe
+# Implementation
+The game is implemented using Java programming language. The game board is represented as an array of Strings, with each element representing a slot on the board. The whoIsWinner method checks for a winner by comparing each row, column, and diagonal of the board. The showBoard method displays the current state of the board. The game loop continues until a winner is declared or the game ends in a tie.
 # Rules
 1- The game is played on a 3x3 grid.
 2- Player 1 is 'X' and Player 2 is 'O'.
