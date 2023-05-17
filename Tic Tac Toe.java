@@ -108,7 +108,8 @@ public class TicTacToe {
                         player = "X";
 
                     winner = whoIsWinner();
-                } else {
+                } 
+                else {
                     System.out.println("Enter value into another slot as it is already taken");
                 }
 
