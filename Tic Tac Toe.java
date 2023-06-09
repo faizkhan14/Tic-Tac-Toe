@@ -37,7 +37,6 @@ public class TicTacToe {
 
                 case 7: check = gameBoard[2] + gameBoard[4] + gameBoard[6];
                         break;
-
             }
 
             if(check.equals("XXX"))
