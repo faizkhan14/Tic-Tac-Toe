@@ -12,7 +12,6 @@ public class TicTacToe {
         for (int i=0; i<8; i++){
 
             String check = null;
-
             switch (i){
 
                 case 0: check = gameBoard[0] + gameBoard[1] + gameBoard[2];
