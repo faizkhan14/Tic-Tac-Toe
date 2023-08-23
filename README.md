@@ -1,11 +1,33 @@
-# Tic-Tac-Toe
-The TicTacToe game is a classic two-player game where players take turns marking spaces on a 3x3 grid. The objective is to get three marks in a row, either horizontally, vertically, or diagonally, before the opponent does.
-# Implementation
-The game is implemented using Java programming language. The game board is represented as an array of Strings, with each element representing a slot on the board. The whoIsWinner method checks for a winner by comparing each row, column, and diagonal of the board. The showBoard method displays the current state of the board. The game loop continues until a winner is declared or the game ends in a tie.
-# Rules
-1- The game is played on a 3x3 grid.
-2- Player 1 is 'X' and Player 2 is 'O'.
-3- Players take turns entering the position they want to mark on the grid (1-9).
-4- The game checks for a winner after each move.
-5- If a player gets three marks in a row, they win the game.
-6-If all positions are filled and no player has won, the game is a tie.
+## Tic Tac Toe
+
+### Introduction
+
+Tic Tac Toe is a classic game that can be enjoyed by people of all ages. This game is a simple and fun way to test your logic and strategy skills. The objective of the game is to get three of your marks in a row, either horizontally, vertically, or diagonally. The first player to do so wins the game.
+
+### Code Explanation
+
+The code for this game is written in Java. The code is well-commented and easy to understand. The main class is called `TicTacToe`. This class contains the main method, which is the entry point of the program.
+
+The `TicTacToe` class has several instance variables. These variables store the state of the game, such as the current player, the game board, and the winner.
+
+The `TicTacToe` class also has several methods. These methods perform various tasks, such as displaying the game board, getting the player's input, and checking for a winner.
+
+The game board is represented by a 3x3 array of strings. Each element in the array represents a square on the game board. The value of each element can be either "X", "O", or a number from 1 to 9. The numbers represent the squares on the game board, as shown below:
+
+```
+1 | 2 | 3
+4 | 5 | 6
+7 | 8 | 9
+```
+
+The current player is represented by a string variable called `player`. The value of this variable can be either "X" or "O".
+
+The winner is represented by a string variable called `winner`. The value of this variable can be either "X", "O", or "Tie".
+
+The `showBoard()` method displays the game board to the console. The method loops through the game board array and prints the value of each element.
+
+The `getInput()` method gets the player's input. The method prompts the player to enter a number from 1 to 9. The method then returns the player's input.
+
+The `checkWinner()` method checks for a winner. The method loops through the game board array and checks for three consecutive "X"s or "O"s. If the method finds three consecutive "X"s or "O"s, it returns the winner. Otherwise, the method returns null.
+
+The `main()` method is the entry point of the program. The method creates a new instance of the `TicTacToe
